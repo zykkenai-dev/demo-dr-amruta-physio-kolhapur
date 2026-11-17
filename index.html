@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dr. Amruta's Physiotherapy Clinic · Dasara Chowk, Kolhapur</title>
+<meta name="description" content="Physiotherapy in Kolhapur by Dr. Amruta Amar Kothavale (MPT). Back, neck, knee, shoulder and neurological rehab with a clear diagnosis first.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Afacad:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#FAF7F0;--card:#FFFDF8;--ink:#1E2A5A;--ink2:#34437A;--soft:#5D6585;--rule:#D9DEEA;--line:#E5E0D3;--hi:#F4D35E;--hi2:#FBE9A6;--red:#D2553F}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Afacad",system-ui,sans-serif;font-size:19px;line-height:1.55;background:var(--paper);color:var(--ink);-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit}
+.wrap{max-width:1200px;margin:0 auto;padding:0 32px}
+h1,h2,h3{font-family:"Gelasio",Georgia,serif;font-weight:600;letter-spacing:-.015em}
+.mark{background:linear-gradient(transparent 58%,var(--hi) 58%,var(--hi) 92%,transparent 92%) no-repeat;background-size:0% 100%;transition:background-size 1.1s cubic-bezier(.6,.1,.2,1) .35s}
+.in .mark,.mark.in{background-size:100% 100%}
+/* top */
+.top{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
+.brand{display:flex;align-items:center;gap:14px;text-decoration:none}
+.brand .seal{width:46px;height:46px;border-radius:50%;border:2px solid var(--ink);display:grid;place-items:center;font-family:"Gelasio";font-style:italic;font-weight:700;font-size:20px}
+.brand b{font-family:"Gelasio";font-size:20px;display:block;line-height:1.1}
+.brand small{font-size:14px;color:var(--soft)}
+.menu{display:flex;gap:28px;align-items:center;font-size:17px}
+.menu a{text-decoration:none;color:var(--soft)}
+.menu a:hover{color:var(--ink)}
+.btn{display:inline-flex;align-items:center;gap:10px;font-weight:600;font-size:17px;text-decoration:none;padding:14px 24px;border-radius:10px;transition:transform .2s ease,box-shadow .2s ease,background .2s}
+.btn-ink{background:var(--ink);color:var(--paper);box-shadow:4px 4px 0 var(--hi)}
+.btn-ink:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--hi)}
+.btn-ghost{border:1.5px solid var(--ink)}
+.btn-ghost:hover{background:var(--card)}
+.menu .btn{color:var(--paper);padding:10px 18px;box-shadow:3px 3px 0 var(--hi)}
+/* hero */
+.hero{display:grid;grid-template-columns:4.2fr 7.8fr;gap:56px;padding:20px 0 90px;align-items:start}
+.portrait{position:relative}
+.portrait img{border-radius:180px 180px 14px 14px;aspect-ratio:3/4;object-fit:cover;width:100%}
+.portrait .tag{position:absolute;left:-14px;bottom:40px;background:var(--card);border:1.5px solid var(--ink);border-radius:10px;padding:12px 16px;font-size:15px;transform:rotate(-3deg);box-shadow:4px 4px 0 var(--ink)}
+.portrait .tag b{font-family:"Gelasio";font-size:22px;display:block}
+.label{font-size:15px;letter-spacing:.14em;text-transform:uppercase;color:var(--red);font-weight:600}
+h1{font-size:clamp(42px,5.4vw,76px);line-height:1.03;margin:14px 0 18px}
+.sub{font-size:21px;color:var(--soft);max-width:600px}
+.actions{display:flex;gap:14px;flex-wrap:wrap;margin:26px 0 32px}
+.note{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:26px 30px 18px 74px;position:relative;
+ background-image:linear-gradient(var(--card),var(--card)),repeating-linear-gradient(transparent 0 37px,var(--rule) 37px 38px);background-clip:padding-box;box-shadow:0 18px 40px -24px rgba(30,42,90,.35);max-width:640px}
+.note{background:repeating-linear-gradient(var(--card) 0 37px,var(--rule) 37px 38px)}
+.note:before{content:"";position:absolute;left:52px;top:0;bottom:0;width:1.5px;background:#EBA79A}
+.note h3{font-family:"Afacad";font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--soft);font-weight:600;line-height:38px;margin-bottom:0}
+.note ol{list-style:none;counter-reset:n}
+.note li{counter-increment:n;line-height:38px;font-family:"Gelasio";font-size:21px;position:relative}
+.note li:before{content:counter(n) ")";position:absolute;left:-40px;font-family:"Afacad";font-weight:700;color:var(--red)}
+.note p{font-size:15px;color:var(--soft);line-height:38px}
+/* conditions */
+section{padding:100px 0}
+.head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:44px;flex-wrap:wrap}
+h2{font-size:clamp(36px,4.4vw,58px);line-height:1.05;margin-top:10px}
+.head p{max-width:420px;color:var(--soft)}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}
+.tabs button{font:inherit;font-size:17px;font-weight:600;color:var(--soft);background:#EFEADC;border:1px solid var(--line);border-bottom:0;padding:12px 20px;border-radius:12px 12px 0 0;cursor:pointer;transition:background .2s,color .2s}
+.tabs button[aria-selected=true]{background:var(--card);color:var(--ink)}
+.tabs button:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:0 14px 14px 14px;padding:44px;display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:center}
+.panel[hidden]{display:none}
+.panel h3{font-size:34px;line-height:1.1}
+.panel p{color:var(--soft);margin:16px 0}
+.panel ul{list-style:none;display:grid;gap:8px}
+.panel li{padding-left:28px;position:relative}
+.panel li:before{content:"✓";position:absolute;left:0;color:var(--red);font-weight:700}
+.panel img{border-radius:10px;aspect-ratio:9/7;object-fit:cover;width:100%}
+/* case */
+.case{background:var(--ink);color:var(--paper)}
+.case .label{color:var(--hi)}
+.casegrid{display:grid;grid-template-columns:5fr 7fr;gap:64px;align-items:start}
+.case h2{color:var(--paper)}
+.case aside p{color:#C3C9E0;margin-top:18px}
+.file{border:1px dashed rgba(250,247,240,.35);border-radius:12px;padding:8px 0}
+.entry{display:grid;grid-template-columns:150px 1fr;gap:26px;padding:22px 30px;border-bottom:1px dashed rgba(250,247,240,.2)}
+.entry:last-child{border:0}
+.entry span{font-size:15px;letter-spacing:.1em;text-transform:uppercase;color:var(--hi);padding-top:4px}
+.entry p{font-family:"Gelasio";font-size:21px;line-height:1.45}
+.entry p small{display:block;font-family:"Afacad";font-size:15px;color:#AEB6D3;margin-top:6px}
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:2px solid var(--ink);margin-top:20px}
+.step{padding:28px 26px 10px 0;position:relative}
+.step:before{content:"";position:absolute;top:-8px;left:0;width:14px;height:14px;border-radius:50%;background:var(--paper);border:2px solid var(--ink)}
+.step b{font-family:"Gelasio";font-size:24px;display:block;margin-bottom:8px}
+.step p{color:var(--soft);font-size:17px}
+/* doctor */
+.doctor{display:grid;grid-template-columns:7fr 5fr;gap:64px;align-items:center}
+.doctor p{color:var(--soft);margin-top:18px;max-width:600px}
+.meta{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}
+.meta div{border:1.5px solid var(--ink);border-radius:12px;padding:16px;background:var(--card)}
+.meta b{font-family:"Gelasio";font-size:28px;display:block;line-height:1.1}
+.meta span{font-size:15px;color:var(--soft)}
+.doctor img{border-radius:14px;aspect-ratio:9/7;object-fit:cover;transform:rotate(1.5deg);box-shadow:-10px 10px 0 var(--hi2)}
+/* reviews */
+.revs{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.rev{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:28px}
+.rev p{font-family:"Gelasio";font-size:19px;line-height:1.5}
+.rev span{display:block;margin-top:16px;font-size:15px;color:var(--soft)}
+.score{display:flex;align-items:center;gap:14px;margin-top:30px;font-size:17px;color:var(--soft)}
+.score b{font-family:"Gelasio";font-size:44px;color:var(--ink)}
+/* visit */
+.visit{background:#F2EDE0}
+.vgrid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.vgrid p.big{font-size:21px;color:var(--soft);margin:18px 0 28px}
+.addr{background:var(--card);border-radius:14px;border:1.5px solid var(--ink);box-shadow:8px 8px 0 var(--ink);padding:34px}
+.addr dl{display:grid;grid-template-columns:96px 1fr;gap:14px 18px}
+.addr dt{font-size:14px;letter-spacing:.12em;text-transform:uppercase;color:var(--red);font-weight:600;padding-top:3px}
+.addr dd{font-size:19px}
+footer{padding:34px 0 40px;font-size:15px;color:var(--soft)}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
+.fab{position:fixed;right:22px;bottom:22px;z-index:20;display:flex;flex-direction:column;gap:10px}
+.fab a{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;box-shadow:0 10px 26px rgba(30,42,90,.25);transition:transform .2s}
+.fab a:hover{transform:scale(1.06)}
+.fab svg{width:24px;height:24px;fill:#fff}
+.mob{display:none}
+.rv{opacity:0;transform:translateY(16px);transition:opacity .7s ease,transform .7s ease}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.rv{opacity:1;transform:none;transition:none}.mark{transition:none;background-size:100% 100%}*{transition:none!important}}
+@media (max-width:1000px){.menu a:not(.btn){display:none}.hero{gap:36px}.panel{grid-template-columns:1fr}.panel img{max-height:320px}.steps{grid-template-columns:1fr 1fr;row-gap:20px}.revs{grid-template-columns:1fr 1fr}}
+@media (max-width:820px){
+ .wrap{padding:0 22px}
+ .hero{grid-template-columns:1fr;padding-top:10px}
+ .portrait{max-width:420px}
+ .portrait img{aspect-ratio:4/3.4;border-radius:140px 140px 14px 14px}
+ .portrait .tag{left:10px}
+ section{padding:76px 0}
+ .casegrid,.doctor,.vgrid{grid-template-columns:1fr;gap:36px}
+ .entry{grid-template-columns:1fr;gap:6px;padding:20px 22px}
+ .panel{padding:28px 22px}
+ .revs{grid-template-columns:1fr}
+ .fab{display:none}
+ .mob{display:grid;grid-template-columns:1fr 1fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:20;background:rgba(250,247,240,.97);border-top:1px solid var(--line);padding:10px 14px calc(10px + env(safe-area-inset-bottom))}
+ .mob a{justify-content:center;padding:12px;box-shadow:none}
+ body{padding-bottom:74px}
+}
+@media (max-width:480px){
+ .brand small{display:none}
+ .note{padding:20px 18px 12px 56px}.note:before{left:40px}.note li{font-size:18px}.note li:before{left:-34px}
+ .tabs button{padding:10px 13px;font-size:15px}
+ .steps{grid-template-columns:1fr;border-top:0;border-left:2px solid var(--ink);margin-left:7px}
+ .step{padding:18px 0 14px 26px}.step:before{left:-8px;top:24px}
+ .meta{grid-template-columns:1fr 1fr}
+ .addr{padding:24px;box-shadow:5px 5px 0 var(--ink)}.addr dl{grid-template-columns:1fr;gap:2px}.addr dd{margin-bottom:12px}
+ .menu .btn{padding:9px 14px;font-size:15px}
+}
+</style>
+</head>
+<body>
+<div class="wrap top">
+ <a class="brand" href="#"><span class="seal">A</span><span><b>Dr. Amruta's</b><small>Physiotherapy Clinic · Kolhapur</small></span></a>
+ <nav class="menu"><a href="#conditions">Conditions</a><a href="#case">Patient story</a><a href="#doctor">Dr. Amruta</a><a href="#visit">Visit</a><a class="btn btn-ink" href="tel:+917775859595">Call</a></nav>
+</div>
+
+<main>
+<div class="wrap hero">
+ <div class="portrait rv"><img src="img/bars.jpg" alt="A physiotherapist guiding a patient through a walking exercise at parallel bars"><div class="tag"><b>5.0 ★</b>89 Google reviews</div></div>
+ <div class="rv">
+  <p class="label">Physiotherapy · Dasara Chowk, Kolhapur</p>
+  <h1>First, a <span class="mark">clear diagnosis.</span> Then you get better.</h1>
+  <p class="sub">Dr. Amruta Amar Kothavale (MPT) treats back, neck, knee, shoulder and nerve problems, and explains every step along the way.</p>
+  <div class="actions"><a class="btn btn-ink" href="https://wa.me/917775859595?text=Hi%20Dr.%20Amruta%2C%20I%27d%20like%20to%20book%20a%20physiotherapy%20session">Book on WhatsApp →</a><a class="btn btn-ghost" href="#conditions">What we treat</a></div>
+  <div class="note"><h3>A patient's notes, Nov 2025</h3><ol><li>perfect diagnosis</li><li>clean and comfortable clinic</li><li>excellent patient care</li></ol><p>“Highly recommended for back pain, knee pain and any musculoskeletal, neurological issues.”</p></div>
+ </div>
+</div>
+
+<section id="conditions" style="padding-top:40px"><div class="wrap">
+ <div class="head rv"><div><p class="label">Conditions</p><h2>Where does it hurt?</h2></div><p>Pick an area. Each plan starts with an assessment, so the treatment matches the cause, not just the pain.</p></div>
+ <div class="rv">
+ <div class="tabs" role="tablist">
+  <button role="tab" aria-selected="true" aria-controls="p1" id="t1">Back &amp; neck</button>
+  <button role="tab" aria-selected="false" aria-controls="p2" id="t2">Knee &amp; joints</button>
+  <button role="tab" aria-selected="false" aria-controls="p3" id="t3">Shoulder</button>
+  <button role="tab" aria-selected="false" aria-controls="p4" id="t4">Nerve &amp; face</button>
+ </div>
+ <div class="panel" role="tabpanel" id="p1" aria-labelledby="t1"><div><h3>Back, neck &amp; spondylosis</h3><p>Desk posture, long rides and lifting all add up. Cervical and lumbar spondylosis, slipped-disc pain and stiffness are treated with manual therapy and a home routine you can keep.</p><ul><li>Cervical &amp; lumbar spondylosis</li><li>Sciatica and lower-back pain</li><li>Postural neck pain</li></ul></div><img src="img/shoulder.jpg" alt="Therapist assessing a patient's upper back" loading="lazy"></div>
+ <div class="panel" role="tabpanel" id="p2" aria-labelledby="t2" hidden><div><h3>Knees, hips &amp; chronic joint pain</h3><p>From a parent's long-standing knee pain to recovery after an injury: strength, mobility and confidence, built step by step.</p><ul><li>Chronic knee pain &amp; arthritis</li><li>Post-injury and post-operative rehab</li><li>Balance and walking training</li></ul></div><img src="img/weights.jpg" alt="Light dumbbell strengthening exercise" loading="lazy"></div>
+ <div class="panel" role="tabpanel" id="p3" aria-labelledby="t3" hidden><div><h3>Shoulder &amp; upper limb</h3><p>Frozen shoulder, rotator-cuff strain and wrist problems, with movement restored gradually and without guesswork.</p><ul><li>Frozen shoulder</li><li>Tailbone (coccyx) and referred pain</li><li>Wrist and elbow strain</li></ul></div><img src="img/wrist.jpg" alt="Therapist supporting a patient's forearm and wrist" loading="lazy"></div>
+ <div class="panel" role="tabpanel" id="p4" aria-labelledby="t4" hidden><div><h3>Nerve conditions, including Bell's palsy</h3><p>Sudden facial weakness is frightening. A calm, accurate diagnosis and a clear explanation of what's happening make all the difference, followed by targeted rehab.</p><ul><li>Bell's palsy (facial nerve)</li><li>Neurological rehab</li><li>Numbness and tingling assessment</li></ul></div><img src="img/bars.jpg" alt="Guided walking rehab" loading="lazy"></div>
+ </div>
+</div></section>
+
+<section class="case" id="case"><div class="wrap casegrid">
+ <aside class="rv"><p class="label">Patient story</p><h2>One morning, half his face felt heavy.</h2><p>Juned Shaikh, a student in Kolhapur, shared what happened in a Google review. We've laid it out the way a clinician would.</p></aside>
+ <div class="file rv">
+  <div class="entry"><span>27 September</span><p>“I suddenly experienced heaviness on one side of my face, and my jaw seemed to tilt.”<small>Symptom onset</small></p></div>
+  <div class="entry"><span>Assessment</span><p>“She quickly and accurately diagnosed my condition as Bell's Palsy.”<small>Diagnosis</small></p></div>
+  <div class="entry"><span>Explained</span><p>“She took the time to explain everything in detail: what Bell's Palsy is, the possible factors, and that it is not an infectious disease.”<small>Patient education</small></p></div>
+  <div class="entry"><span>Outcome</span><p>A worried student who walked out understanding his condition, and treatment underway.<small>From his review, October 2025</small></p></div>
+ </div>
+</div></section>
+
+<section><div class="wrap">
+ <div class="head rv"><div><p class="label">Your first visit</p><h2>How a session works</h2></div></div>
+ <div class="steps rv">
+  <div class="step"><b>1. Listen</b><p>Your history, your pain and what makes it worse.</p></div>
+  <div class="step"><b>2. Assess</b><p>Movement, strength and posture tests to find the cause.</p></div>
+  <div class="step"><b>3. Explain</b><p>What's wrong and how long recovery should take, in plain words.</p></div>
+  <div class="step"><b>4. Treat</b><p>Hands-on therapy in clinic, plus exercises for home.</p></div>
+ </div>
+</div></section>
+
+<section id="doctor" style="padding-top:20px"><div class="wrap doctor">
+ <div class="rv"><p class="label">Meet the physiotherapist</p><h2>Dr. Amruta Amar Kothavale</h2>
+  <p>Dr. Amruta completed her MPT at Krishna College of Physiotherapy, Karad, and has spent well over a decade treating patients in Kolhapur. Families tend to come in pairs: one patient came for shoulder and tailbone pain, saw <span class="mark">80% improvement in five sessions</span>, and then brought her mother-in-law for chronic knee pain.</p>
+  <div class="meta"><div><b>MPT</b><span>Master of Physiotherapy</span></div><div><b>14+ yrs</b><span>experience</span></div><div><b>5.0★</b><span>from 89 reviews</span></div></div>
+ </div>
+ <img class="rv" src="img/wrist.jpg" alt="Hands-on physiotherapy for the wrist and forearm" loading="lazy">
+</div></section>
+
+<section style="padding-top:20px"><div class="wrap">
+ <div class="head rv"><div><p class="label">Reviews</p><h2>In patients' own words</h2></div></div>
+ <div class="revs">
+  <div class="rev rv"><p>“With only 5 sessions there was 80 percent improvement. Now my mother-in-law is taking treatment for her chronic knee pain.”</p><span>Amruta G., Google</span></div>
+  <div class="rev rv"><p>“Sincere appreciation for the effective treatment you have provided for my cervical and lumbar spondylosis.”</p><span>Google review, July 2025</span></div>
+  <div class="rev rv"><p>“Dr. Amruta madam is highly knowledgeable in the field of physiotherapy. Thank you madam for such nice treatment.”</p><span>Google review, November 2025</span></div>
+ </div>
+ <div class="score rv"><b>5.0</b> average across 89 Google reviews</div>
+</div></section>
+
+<section class="visit" id="visit"><div class="wrap vgrid">
+ <div class="rv"><p class="label">Visit the clinic</p><h2>Opposite the Titan showroom, Dasara Chowk.</h2><p class="big">Open Monday to Saturday. Message on WhatsApp with your concern and a preferred time.</p><div class="actions" style="margin:0"><a class="btn btn-ink" href="https://wa.me/917775859595">WhatsApp</a><a class="btn btn-ghost" href="https://maps.google.com/?q=Dr.+Amruta%27s+Physiotherapy+Clinic+Empire+Tower+Dasara+Chowk+Kolhapur">Directions</a></div></div>
+ <div class="addr rv"><dl>
+  <dt>Address</dt><dd>B-19 Empire Tower, Dasara Chowk, opp. Titan showroom, Kolhapur 416002</dd>
+  <dt>Hours</dt><dd>Mon – Sat · 10 am – 7 pm<br>Sunday closed</dd>
+  <dt>Phone</dt><dd><a href="tel:+917775859595">+91 77758 59595</a></dd>
+  <dt>Email</dt><dd><a href="mailto:dramrutampt@gmail.com">dramrutampt@gmail.com</a></dd>
+ </dl></div>
+</div></section>
+</main>
+<footer><div class="wrap"><span>© Dr. Amruta's Physiotherapy Clinic, Kolhapur</span><span>Website concept by Zykken · demo for review</span></div></footer>
+<div class="fab"><a style="background:#25935A" href="https://wa.me/917775859595" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg></a><a style="background:var(--ink)" href="tel:+917775859595" aria-label="Call"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.2 11.4 11.4 0 0 0 3.6.6 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.2.2 2.4.6 3.6a1 1 0 0 1-.3 1Z"/></svg></a></div>
+<div class="mob"><a class="btn btn-ghost" href="tel:+917775859595">Call</a><a class="btn btn-ink" href="https://wa.me/917775859595">WhatsApp</a></div>
+<script>
+const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.15});
+document.querySelectorAll('.rv,.mark').forEach(el=>io.observe(el));
+const tabs=[...document.querySelectorAll('[role=tab]')];
+tabs.forEach((t,i)=>{t.addEventListener('click',()=>sel(i));t.addEventListener('keydown',e=>{if(e.key==='ArrowRight')sel((i+1)%tabs.length,1);if(e.key==='ArrowLeft')sel((i-1+tabs.length)%tabs.length,1)})});
+function sel(i,f){tabs.forEach((t,j)=>{t.setAttribute('aria-selected',j===i);t.tabIndex=j===i?0:-1;document.getElementById(t.getAttribute('aria-controls')).hidden=j!==i});if(f)tabs[i].focus()}
+</script>
+</body>
+</html>
